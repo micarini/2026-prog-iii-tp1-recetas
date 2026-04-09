@@ -394,3 +394,40 @@ body {
     font-size: 0.9em;
     margin-top: 0.05em;
 }
+
+.site-footer {
+    padding: 1em 1.2em;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.footer-copy {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--paper);
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 0.55em;
+}
+
+.footer-social a {
+    width: 2em;
+    height: 2em;
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink);
+}
+
+.footer-social svg {
+    width: 1.1em;
+    height: 1.1em;
+}
