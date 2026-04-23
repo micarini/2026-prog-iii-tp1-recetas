@@ -160,6 +160,9 @@ body {
     border: 2px solid var(--ink-soft);
     border-radius: 14px;
     overflow: hidden;
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .recipe-card img {
